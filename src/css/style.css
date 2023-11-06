@@ -1,16 +1,18 @@
-html, body{
+html,
+body {
     background-color: black;
 }
+
 .banner {
     display: flex;
     justify-content: center;
     width: auto;
     height: 605px;
     border-bottom: 1px solid #33A8DB;
-    background-image: url(../assets/images/banner.png);
+    background-image: url(../assets/images/banner.png), linear-gradient(180deg, #31a9dd28 0%,#000000a6 60%);;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    
 }
 
 .banner .banner-content {
@@ -47,7 +49,8 @@ html, body{
     text-align: center;
     margin-bottom: 20px
 }
-.banner .banner-content button{
+
+.banner .banner-content button {
     background: transparent;
     border: 1px solid #33A8DB;
     color: #33A8DB;
@@ -57,7 +60,8 @@ html, body{
     line-height: 18.78px;
 
 }
-#course-content{
+
+#course-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,21 +69,24 @@ html, body{
     width: auto;
     height: 525px;
     gap: 24px;
-    border-bottom: 1px solid #33A8DB ;
+    border-bottom: 1px solid #33A8DB;
 }
-#course-content h2{
+
+#course-content h2 {
     color: #33A8DB;
     font-weight: 700;
     font-size: 32px;
     line-height: 37.57px;
 }
+
 #course-content p {
     color: white;
     font-size: 16px;
     font-weight: 400;
     width: 790px;
 }
-#course-content .modules-list .module{
+
+#course-content .modules-list .module {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,9 +99,11 @@ html, body{
     height: 51px;
     margin: 20px;
 }
-#course-content .modules-list .module span{
+
+#course-content .modules-list .module span {
     color: #33A8DB;
 }
+
 #transform-world {
     background-image: url(../assets/images/woman-code.png);
     background-repeat: no-repeat;
@@ -103,37 +112,42 @@ html, body{
     height: 366px;
     border-bottom: 1px solid #33A8DB;
 }
-#transform-world p{
+
+#transform-world p {
     color: white;
     width: 244px;
     height: 241px;
     font-size: 40px;
     font-weight: 900;
     line-height: 46.96px;
-    text-shadow: 3px 2px 0px 0px rgb(51, 169, 219);
+    text-shadow: 10px 2px 0px rgb(51, 169, 219);
     margin-left: 198px;
     padding-top: 120px;
 
-    
+
 }
-#professional-challenges{
+
+#professional-challenges {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#professional-challenges h2{
+
+#professional-challenges h2 {
     color: #33A8DB;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
     margin-top: 50px;
 }
-#professional-challenges img{
+
+#professional-challenges img {
     max-width: 650px;
     max-height: 420px;
 
 }
-#professional-challenges p{
+
+#professional-challenges p {
     color: white;
     font-size: 16px;
     font-weight: 400;
